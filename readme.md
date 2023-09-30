@@ -77,6 +77,7 @@ def generate_payload(code, url):
         return f'<h1>error {code} method not allowed</h1>'.encode('utf-8')
     return f'<h1> {URLS[url]}</h1>'.encode('utf-8')
 
+test
 
 def generate_response(request):
     method, url = parse_request(request)

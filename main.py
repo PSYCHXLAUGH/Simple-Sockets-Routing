@@ -6,6 +6,9 @@ URLS = {
 }
 
 
+def test():
+    pass
+
 def parse_request(request):
     parsed = request.split(' ')
     print(parsed)
