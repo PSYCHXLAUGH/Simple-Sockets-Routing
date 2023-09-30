@@ -14,6 +14,8 @@ def parse_request(request):
     print(method, url)
     return method, url
 
+def musr():
+    return
 
 def generate_headers(method, url):
     if not method == 'GET':
