@@ -6,9 +6,6 @@ URLS = {
 }
 
 
-def test():
-    pass
-
 def parse_request(request):
     parsed = request.split(' ')
     print(parsed)
@@ -17,8 +14,6 @@ def parse_request(request):
     print(method, url)
     return method, url
 
-def musr():
-    return
 
 def generate_headers(method, url):
     if not method == 'GET':
